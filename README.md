@@ -10,7 +10,7 @@ Só é possível registrar um e-mail uma vez, pois o e-mail é utilizado como id
 Depois de se registrar e entrar com o seu usuário, será redirecionado à lista com os agentes já cadastrados. Por padrão não há nenhum usuário cadastrado, sendo assim é necessário realizar o cadastro de pelo menos um funcionário para poder visualizar a lista dos agentes.
 
 # Estrutura do Projeto
-
+`````bash
 ├── assets // Arquivos estáticos  
 │   └── img  
 │       ├── icon-v2.jpg  
@@ -27,3 +27,4 @@ Depois de se registrar e entrar com o seu usuário, será redirecionado à lista
 │      └── listagem.html  
 │  
 └── index.html // Página de login  
+```
