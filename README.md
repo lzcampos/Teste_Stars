@@ -12,18 +12,18 @@ Depois de se registrar e entrar com o seu usuário, será redirecionado à lista
 # Estrutura do Projeto
 
 ├── assets // Arquivos estáticos  
-|   └── img  
-|       ├── icon-v2.jpg  
-|       └── icon.jpg  
+│   └── img  
+│       ├── icon-v2.jpg  
+│       └── icon.jpg  
 ├── src  
 │   └──css  
 │       └──styles.css  
 │   └──js  
-│       ├── listagem.js  
-|       ├── login.js  
-|       └── registro.js  
+│      ├── listagem.js  
+│      ├── login.js  
+│      └── registro.js  
 │   └──pages // Paginas diversas da aplicação  
-│       ├── register.html  
-|       └── listagem.html  
+│      ├── register.html  
+│      └── listagem.html  
 │  
 └── index.html // Página de login  
