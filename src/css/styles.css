@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', cursive;
+}
+
+body {
+  background: #03192c;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px auto 0;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+.card {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  animation: fadeIn ease 3s;
+}
+
+.section-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-image > img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.card > input {
+  border-radius: 4px;
+  width: 70%;
+  padding: 12px 5px;
+  border: none;
+  font-size: 15px;
+  margin: 5px auto;
+  outline: 0;
+}
+
+.card > button {
+  width: 50%;
+  background-color: #345070;
+  border: none;
+  border-radius: 8px;
+  margin: 35px auto;
+  margin-bottom: 10px;
+  color: #ffffff;
+  padding: 12px 5px;
+  font-size: 14px;
+  outline: 0;
+}
+
+.card > p, a {
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.txtRegistro{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+table {
+  color: #ffffff;
+  border: none;
+}
+
+.mainTitle{
+  color:#ffffff;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+tr > td {
+  text-align: center;
+  padding: 2px;
+}
+
+table, th{
+  background-color: #345070;
+  border-radius: 4px;
+  padding: 5px 5px;
+}
